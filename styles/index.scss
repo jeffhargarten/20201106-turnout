@@ -111,15 +111,16 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
   margin-bottom:15px;
 }
 
-#mainlegend {
+#mainLegend {
   margin-top:25px;
   margin-bottom:15px;
-  font-size:0.8em;
+  font-size:1em;
+  width:520px;
 }
 
 .legend div {
   height:10px;
-  width:40px;
+  width:15%;
   display:inline-block;
 }
 
@@ -309,5 +310,8 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
 @media (max-width:600px) {
   .explain {
     height:50px;
+  }
+  #mainLegend {
+    width:100%;
   }
 }
