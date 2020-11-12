@@ -26,8 +26,8 @@ class StribCountyMap {
     this.data = ab.ab;
     this.m = map;
     this.colorScale = d3.scaleLinear()
-    .domain([0, 0.10, 0.30, 0.50, 0.70, .90])
-    .range(['#e7e7e7', '#D9D3EB', '#B6AED4', '#7D739C', '#62597D', '#4A4061']);
+    .domain([0, 0.10, 0.30, 0.50, 0.70, 1])
+    .range(['#e7e7e7', '#D9D3EB', '#B6AED4', '#7D739C', '#62597D']);
   }
   
   _renderState() {
